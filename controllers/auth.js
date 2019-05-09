@@ -12,7 +12,7 @@ router.post('/signup', (req, res) => {
 });
 
 // This is what is returned when client queries for new user data
-router.get('/current/user', (req, res) => {
+router.post('/current/user', (req, res) => {
   res.send('GET /auth/current/user STUB');
 });
 
